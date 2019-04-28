@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/calendar"
+        android:icon="@drawable/ic_calendar"
+        app:showAsAction="always"
+        android:title="Calendar" >
+    </item>
+    <item
+        android:id="@+id/dining"
+        android:icon="@drawable/ic_dining"
+        app:showAsAction="always"
+        android:title="Dining">
+    </item>
+    <item
+        android:id="@+id/weather"
+        android:icon="@drawable/ic_weather"
+        app:showAsAction="always"
+        android:title="Weather">
+    </item>
+</menu>

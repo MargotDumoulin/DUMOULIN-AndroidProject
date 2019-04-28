@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/cardview_shadow_end_color"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_day"
+        style="@style/DayName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:text="JourSemaine"
+        android:textColor="@color/primaryTextColor" />
+
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:background="@color/primaryDarkColor"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="118dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/background_light"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_morning"
+                style="@style/DayName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Morning" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/primaryDarkColor" />
+
+        <LinearLayout
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:background="@color/primaryLightColor"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_twelve"
+                style="@style/DayName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="test" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/primaryDarkColor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/primaryColor"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_evening"
+                style="@style/DayName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="test" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/primaryDarkColor"/>
+
+
+
+
+</LinearLayout>
